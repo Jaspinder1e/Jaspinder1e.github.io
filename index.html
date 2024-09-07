@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             margin: 0;
@@ -11,7 +15,7 @@
             background-image: url('background'); /* use the path of your uploaded image */
             background-size: cover;
             background-position: center;
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif; /* Custom font for the whole page */
             color: #e0e0e0; /* Light text color to contrast with dark background */
         }
         .container {
@@ -31,9 +35,23 @@
         h1 {
             font-size: 3em;
             margin-bottom: 10px;
+            font-family: 'Pacifico', cursive; /* Custom font for the name */
         }
         p {
             font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            color: #e0e0e0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 2em;
+        }
+        .social-links a:hover {
+            color: #00aced; /* Light blue hover effect */
         }
     </style>
 </head>
@@ -42,7 +60,15 @@
     <div class="container">
         <div class="about-content">
             <h1>Jaspinder Singh</h1>
-            <p>I am passionate cybersecurity enthusiast with a mission to help people and businesses stay secure in the digital world.</p>
+            <p>I am a passionate cybersecurity enthusiast with a mission to help people and businesses stay secure in the digital world.</p>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
     </div>
 
