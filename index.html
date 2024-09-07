@@ -1,76 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
-    <title>Links website</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
     <style>
-      body {
-        background: #232526;  
-        background: -webkit-linear-gradient(to right, #414345, #232526);  
-        background: linear-gradient(to right, #414345, #232526); 
-      }
-      .container {
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-      }
-      .image {
-        background-image: url("https://play-lh.googleusercontent.com/P7Gnsyf8J_3M816auulI2Z8mOjAJDjcl7Hpzk-qe6otHBcEQKWxtaayl2QWraPxgkw");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center; 
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        margin: 0 auto;
-        border: 5px solid #fdf5e6;
-      }
-      a {
-        font-size: large;
-      }
-      .w3-border {
-        border: 3px solid #ccc !important;
-      }
-      .links-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap:20px;
-      }
-      .links-container a {
-        width: 100%;
-        color: #414345 !important;
-        transition: 0.2s;
-      }
-      .links-container a:hover {
-        opacity: 1;
-      }
-      .profession {
-        margin-top: 15px !important;
-      }
-      .profession span {
-        font-size: 14px;
-      }
-      .icons {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-      }
-      .icons a {
-        text-decoration: none;
-      }
-      .icons a svg {
-        fill: #fdf5e6 !important;
-        transform: scale(1);
-      }
-      .border {
-        border: 3px ridge #fdf5e6;
-      }
-      .contact {
-        text-align: center;
-        color: #fdf5
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('path_to_image'); /* use the path of your uploaded image */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #e0e0e0; /* Light text color to contrast with dark background */
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full page height */
+            text-align: center;
+            padding: 20px;
+            backdrop-filter: blur(8px); /* Slight blur for readability */
+        }
+        .about-content {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent box */
+            padding: 30px;
+            border-radius: 15px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <p>Welcome! I am [Your Name], a passionate [Your Profession] with a focus on cybersecurity and technology. 
+               My journey involves... [Add more personal details here].</p>
+        </div>
+    </div>
+
+</body>
+</html>
